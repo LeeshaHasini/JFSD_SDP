@@ -1,0 +1,52 @@
+.counselors-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.counselor-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 2500px; /* Set a max-width to limit the overall width of the content */
+}
+
+.counselor-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%; /* Adjust to one-third of the container width */
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.counselor-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.counselor-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.counselor-card strong {
+  color: #000;
+}
+
+.chat-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,29 @@
+.booked-slots-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.booked-slots-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.booked-slots-table th, .booked-slots-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.booked-slots-table th {
+    background-color: #120707;
+}
+
+.booked-slots-table tr:nth-child(even) {
+    background-color: #f8f6f6;
+}
+
+.booked-slots-table tr:hover {
+    background-color: #f1f1f1;
+}

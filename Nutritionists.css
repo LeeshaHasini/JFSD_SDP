@@ -1,0 +1,41 @@
+/* Nutritionists.css */
+.nutritionists-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.nutritionist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nutritionist-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nutritionist-card h3 {
+    margin-top: 0;
+}
+
+.chat-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chat-button:hover {
+    background-color: #45a049; /* Darker green */
+}
